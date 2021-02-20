@@ -23,5 +23,3 @@ while (True):
     if (data!=""):
         print ("Request received on ",datetime.now().strftime("%d/%m/%Y")," at ",datetime.now().strftime("%H:%M:%S"))
         s.sendto(data,addr)
-
-s.close()
